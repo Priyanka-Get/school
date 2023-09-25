@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-size: cover;
+background-repeat: no-repeat;
+background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(main10.jpg);
+width: 100%;
+height: 100vh;
+background-position: center;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 400px;
+    height: 150px;
+    margin-top: -50px;
+    margin-left: -100px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    margin-top: -50px;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text  h1{
+    color: #fff;
+    margin-top: 100px;
+    font-weight: 700px;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
+.text p{
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+    line-height: 30px;
+
+}
+.but{
+    margin-top: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 500px;
+
+}
+.butt{
+    margin-top: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 30px;
+
+}
+.but:hover{
+background-color: #f44336;
+}
+.butt:hover{
+background-color: #f44336;
+}
+.left{
+    width:100px;
+    height: 200px;
+    
+}
+.mid{
+    width:100px;
+    height: 200px;
+ margin-left: 200px;
+ margin-top: -200px;
+}
+.midd{
+    width:100px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+.right{
+    width:100px;
+    height: 200px;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+.t1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h5{
+    text-align:center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
